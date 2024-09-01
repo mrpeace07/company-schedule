@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Company Scheduler",
   "version": "2.0",
-  "description": "A simple calendar extension with event management.",
+  "description": "A simple company schheduler to hep remid us",
   "permissions": [
     "storage"
   ],
