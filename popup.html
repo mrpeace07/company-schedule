@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: #2daeb8; margin-top: 15px;">Plan and Prepare: Schedule Your Company Meetings Well</h1>
+    
+    <!-- Navigation buttons and current date display -->
+    <div id="navigation-container">
+        <button id="prev-button" class="nav-button">&#x25C0;</button>
+        <div id="current-date"></div>
+        <button id="next-button" class="nav-button">&#x25B6;</button>
+    </div>
+
+    <div id="calendar">
+        <div id="dates-container"></div>
+    </div>
+
+    <!-- Modal for event details -->
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-date"></h2>
+            <input type="text" id="event-input" placeholder="Enter event details">
+            <button id="save-event">ADD COMPANY</button>
+            <button id="delete-event">DELETE COMPANY</button>
+        </div>
+    </div>
+
+    <!-- Wishing message -->
+    <p style="color: green; text-align: center; margin-top: 20px; font-size: 15px;">Wishing everyone all the best!!</p>
+
+    <script src="popup.js"></script>
+</body>
+</html>
